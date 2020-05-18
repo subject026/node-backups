@@ -1,0 +1,29 @@
+{
+  "name": "node-backups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "start": "MODE=development node dist/index.js",
+    "test": "jest --watch",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.2.2",
+    "@types/node": "^14.0.1",
+    "@types/rimraf": "^3.0.0",
+    "eslint": "^7.0.0",
+    "jest": "^26.0.1",
+    "ncp": "^2.0.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
+}
